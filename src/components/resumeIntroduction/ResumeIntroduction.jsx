@@ -19,7 +19,7 @@ const ResumeIntroduction = () => {
                 ]), 70);
             }
         }
-        return () => clearTimeout(handleTimeOut());
+        return clearTimeout(handleTimeOut());
 
     });
 
