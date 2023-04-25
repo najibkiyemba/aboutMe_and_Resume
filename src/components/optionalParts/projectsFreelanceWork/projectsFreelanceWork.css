@@ -1,0 +1,188 @@
+.image-header {
+    background-color: rgba(169, 169, 169, 0.176);
+    padding: 0px 0px 9px 0px;
+    font-size: 0.7rem;
+    font-weight: bolder;
+
+}
+
+#viewer {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.789);
+    padding: 0.1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+#viewer:hover {
+    color: red;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.tableSchedule, thead, tbody, td{
+    border-style: none;
+    background-color: rgba(169, 169, 169, 0.95);
+}
+
+.tableSchedule {
+    border: 5px solid rgba(169, 169, 169, 0.884);
+    border-radius: 0.7rem;
+    overflow: hidden;
+    width: 100%;
+}
+
+.tableHead {
+    background-color: darkgray;
+}
+
+
+#tableSchedule {
+    padding: 0rem 2rem 1rem 2rem;
+}
+
+#formData div, td{
+    padding: 0.5rem 0.5rem;
+    background-color: rgba(169, 169, 169, 0.542);
+}
+
+
+#formData, label, input{
+    float: left;
+    font-size: 1rem;
+}
+
+
+
+#formData input, #genderOptions, .genderOptions {
+    background-color: rgba(169, 169, 169, 0.117);
+    border: 3px solid rgba(169, 169, 169, 0.623);
+    border-radius: 3px;
+    margin-bottom: 0.1rem;
+}
+
+#formData textarea {
+    background-color: rgba(169, 169, 169, 0.41);
+    border: 3px solid rgba(169, 169, 169, 0.622);
+    border-radius: 3px;
+    margin-top: 0.5rem;
+}
+
+.gender {
+    margin-bottom: 0.5rem;
+    color: red;
+}
+
+#formData label {
+    font-size: 1rem;
+    font-weight: bolder;
+    border: 1px solid rgba(169, 169, 169, 0.584);
+    background-color: rgba(169, 169, 169, 0.685);
+    padding: 1px;
+    border-radius: 3px;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+#button {
+    padding: 0.2rem;
+    background-color: whitesmoke;
+    color: black;
+    cursor: pointer;
+    border: 2px solid darkgray;
+    border-radius: 9px;
+}
+
+
+#button:hover {
+    color: white;
+    background-color: rgba(22, 15, 15, 0.871);
+}
+
+@media screen and (min-width: 100px){
+    #formData {
+        width: 20%;
+    }
+
+    .textarea1 {
+        width: 25rem;
+    }
+
+    input, #genderOptions {
+        width: 10rem;
+    } 
+}
+
+@media screen and (max-width: 1080px){
+    .textarea1 {
+        width: 10rem;
+    }
+}
+
+.commentDiv {
+    margin-top: 1rem;
+    background-color: rgba(169, 169, 169, 0.658);
+    border-radius: 5px;
+}
+
+.otherComments {
+    border: 6px solid rgba(169, 169, 169, 0.537);
+    border-radius: 7px;
+}
+
+.otherComments h3 {
+    background-color: rgba(0, 0, 0, 0.785);
+    color: rgba(245, 245, 245, 0.776);
+    padding: 0rem;
+    border: 2px solid rgba(0, 0, 0, 0.779);
+    border-radius: 4px;
+    padding: 0px 0px 0px 2px;
+    font-size: 1.1rem;
+}
+
+.otherComments div {
+    background-color: darkgray;
+}
+
+.otherComments h4, p {
+    padding: 0.1rem;
+    background-color: rgba(169, 169, 169, 0.575);
+}
+
+.otherComments .commentImage {
+    background-color: rgba(0, 0, 0, 0.514);
+    font-size: 1.6rem;
+    margin-top: 0.3rem;
+}
+
+.delete {
+    background-color: rgba(245, 245, 245, 0.549);
+    color: black;
+    padding: 0.1rem;
+    margin-top: 0.4rem;
+    margin-right: 0.2rem;
+    float: right;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 0.9rem;
+}
+
+.delete:hover {
+    background-color: rgba(245, 245, 245, 0.844);
+    color: red;
+    font-size: 1rem;
+}
+
+
+
+
+
+
+  
+  
+  
+  
+ 

@@ -1,0 +1,49 @@
+.trainingCerti {
+    text-align: center;
+    padding: 0.3rem 0rem;
+    font-size: 1rem;
+    /*resize: none;*/
+    margin-bottom: 1rem;
+}
+
+.items img {
+    border-radius: 0.3rem;
+    cursor: pointer;
+    padding: 0.8rem;
+    background-color: rgba(169, 169, 169, 0.407);
+    width: 216px;
+    height: 178px;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.training {
+    border: 3px solid rgba(169, 169, 169, 0.812);
+    padding: 0.8rem;
+    margin: 0rem 2rem;
+    background-color: rgba(169, 169, 169, 0.536);
+    border-radius: 5px;
+}
+
+.items {
+    background-color: rgba(169, 169, 169, 0.427);
+}
+
+
+@media screen and (min-width: 1000px){
+   .items img {
+    width: 340px;
+    height: 240px;
+    text-align: right;
+   }
+}
+
+.training-title {
+    background-color: black;
+    color: darkgray;
+    padding: 0.4rem 1rem;
+    text-align: left;
+}
+
+
+

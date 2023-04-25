@@ -1,0 +1,185 @@
+.contactInfo {
+    border: black solid 0.16rem;
+    padding: 0.3rem 1rem;
+    position: sticky;
+    background-color: black;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
+}
+ 
+
+
+.resumeHeader {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.6rem;
+    text-align: center;
+    font-size: 1.7vw;
+    color: rgba(0, 0, 0, 0.673);
+    background-color: black;
+    gap: 0.4rem;
+}
+@media (min-width:200px) {/*small 1*/
+    .resumeHeader .info-items .linkedn {
+        font-size: 2px;
+    }
+}
+
+
+@media (min-width:320px) {/*small 2*/
+    .resumeHeader .info-items .linkedn {
+        font-size: 4px;
+    }
+}
+
+@media (min-width: 480px){/*small 3*/
+    .resumeHeader .info-items .linkedn {
+        font-size: 6px;
+    }
+}
+
+
+@media (min-width:600px) {/*small 4*/
+    .resumeHeader .info-items .linkedn {
+        font-size: 9px;
+    }
+}
+
+@media (min-width:861px) {/*small 5*/
+    .resumeHeader .info-items .linkedn {
+        font-size: 14px;
+    }
+
+    .resumeHeader {
+        gap: 1.7rem;
+    }
+}
+
+h5 {
+    background-color: black;
+    display: block;
+}
+
+.title-header {
+    background-color: black;
+    color: darkgray;
+    font-weight: bold;
+    font-style: normal;
+    opacity: 90%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.linkedn {
+    text-decoration: none;
+    color: darkgrey;
+    cursor: pointer;
+}
+
+.images {
+    background-color: black;
+    color: darkgrey;
+    font-size: 1.1rem;
+    opacity: 80%;
+}
+
+a #info:hover {
+    color: white;
+}
+
+.info-li {
+    color: darkgray;
+    background-color: black;
+    display: inline-flex;
+}
+
+.info-ul {
+    list-style-type: none;
+    background-color: black;
+    margin-top: 0.1rem;
+}
+
+.info-ul .list-a {
+   display: block;
+    background-color: black;
+    color: darkgrey;
+    text-decoration: none;
+    padding: 0px 4px;
+    font-size: 0.9rem;
+
+}
+
+.list-a:hover {
+    background-color: rgba(169, 169, 169, 0.389);
+    opacity: 70%;
+    color: white;
+    border-radius: 6px;
+    overflow: hidden; 
+}
+
+.dropdown {
+    float: right;
+}
+    
+.openbtn {
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: darkgray;
+    color: black;
+    border: none;
+    padding: 0px 6px;
+    border-radius: 2px;
+    opacity: 90%;
+  }
+
+  .openbtn:hover {
+    color: white;
+    background-color: black;
+  }
+
+  .sidepanel  {
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    height: 195px;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    margin-top: 1rem;
+    border-radius: 5px;
+    display: none;
+  }
+  
+  .sidepanel a {
+    padding: 0.7rem 0.7rem;
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    opacity: 90%;
+  }  
+  
+  .sidepanel a:hover {
+    color: red;
+    background-color: darkgrey;
+    font-size: 1.2rem;
+  }
+#mySidepanel .closebtn:hover {
+    color: red;
+    font-size: 1.2rem;
+    background-color: darkgray;
+}
+
+
+#mySidepanel .closebtn {
+    display: inline;
+    background-color: darkgray;
+    color: black;
+    font-size: 1.2rem;
+    right: 20px;
+    padding: 1rem;
+    opacity: 0.9;
+}

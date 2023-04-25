@@ -1,0 +1,91 @@
+
+#skillTools, #skillTools td, #skillTools th {
+    border-style: none;
+    background-color: rgba(169, 169, 169, 0.737);
+    text-align: left;
+    overflow: hidden;
+}
+
+.resume-skills {
+    padding: 0 0rem;
+    text-align: center;
+}
+
+#skillTools {
+    width: 100%;
+}
+
+@media (min-width:100px) {
+    #skillTools .tablehead{
+        font-size: 0px;
+    }
+
+    #skillTools .tableData {
+        font-size: 0.1px;
+        word-break: break-all;
+    }
+
+}
+
+@media (min-width:200px) {/*small 1*/
+    #skillTools .tablehead{
+        font-size: 3px;
+        font-weight: bolder;
+    }
+
+    #skillTools .tableData {
+        font-size: 3px;
+        word-break: break-all;
+    }
+}
+
+
+@media (min-width:320px) {/*small 2*/
+    #skillTools .tablehead{
+        font-size: 6px;
+    }
+
+    #skillTools .tableData {
+        font-size: 5px;
+    }
+}
+
+@media (min-width: 480px){/*small 3*/
+    #skillTools .tablehead {
+        font-size: 10px;
+    }
+
+    #skillTools .tableData {
+        font-size: 6px;
+    }
+}
+
+@media (min-width: 600px){/*small 4*/ 
+    #skillTools .tablehead {
+        font-size: 13px;
+    }
+
+    #skillTools .tableData {
+        font-size: 9px;
+    }
+}
+
+#skillstitle {
+    background-color: black;
+    text-align: center;
+    color: rgba(245, 245, 245, 0.513);
+}
+
+.tableData {
+    justify-content: center;
+    overflow: hidden;
+    padding: 3px;
+}  
+
+.resume-skills {
+    text-align: center;
+    background-color: rgba(169, 169, 169, 0.877);
+    border-radius: 6px;
+    border: 3px solid darkgray;
+    margin: 0 2rem;
+}

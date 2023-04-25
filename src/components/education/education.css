@@ -1,0 +1,32 @@
+.educationHead {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bolder;
+    color: darkgray;
+    padding: 0.5rem;
+    background-color: rgba(0, 0, 0, 0.803);
+    margin-bottom: 0.4rem;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.educ-image {
+    background-color: rgba(0, 0, 0, 0.803);
+}
+
+.schooltitle {
+    background-color: rgba(169, 169, 169, 0.539);
+}
+
+.group-one {
+    padding: 0.4rem;
+    background-color: darkgray;
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    margin-bottom: 0.7rem;
+}
+.group-one P {
+    font-style: italic;
+    padding-top: 0.2rem;
+}
+
