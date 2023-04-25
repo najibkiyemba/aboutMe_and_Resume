@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/aboutMe_and_Resume/static/css/main.88f8dd61.css",
+    "main.js": "/aboutMe_and_Resume/static/js/main.fb4f429a.js",
+    "static/media/restaurnt.jpg": "/aboutMe_and_Resume/static/media/restaurnt.8d886844985391e1d784.jpg",
+    "static/media/pythonBasics.jpg": "/aboutMe_and_Resume/static/media/pythonBasics.73d52fa72b38177c2e82.jpg",
+    "static/media/IMGRevature.jpg": "/aboutMe_and_Resume/static/media/IMGRevature.3924ea6ae6907bab9f2a.jpg",
+    "static/media/gettingPyt.jpg": "/aboutMe_and_Resume/static/media/gettingPyt.99735ec1f562f7abb0c7.jpg",
+    "static/media/pyFunction.jpg": "/aboutMe_and_Resume/static/media/pyFunction.0aa077c8576a70e41618.jpg",
+    "static/media/Grammar.jpg": "/aboutMe_and_Resume/static/media/Grammar.34062e7e4d588e3111aa.jpg",
+    "static/media/HTML.jpg": "/aboutMe_and_Resume/static/media/HTML.0d230e74bf7a4c60af7d.jpg",
+    "static/media/Aws.jpg": "/aboutMe_and_Resume/static/media/Aws.12000e272fe91ad35e58.jpg",
+    "static/media/generationUSA.jpg": "/aboutMe_and_Resume/static/media/generationUSA.1cdaee006d52d0f45f23.jpg",
+    "static/media/MLbusiness.jpg": "/aboutMe_and_Resume/static/media/MLbusiness.23da9e8c87800c3fbc9a.jpg",
+    "static/media/shopping.jpg": "/aboutMe_and_Resume/static/media/shopping.a1cb4127ff55edf132be.jpg",
+    "static/media/MLessentials.jpg": "/aboutMe_and_Resume/static/media/MLessentials.d7ba74a71c5b153fa508.jpg",
+    "static/media/PMcrisp.jpg": "/aboutMe_and_Resume/static/media/PMcrisp.2ef4918d6452f1957486.jpg",
+    "static/media/MLterminolog.jpg": "/aboutMe_and_Resume/static/media/MLterminolog.40fbd49d145789d94d16.jpg",
+    "static/media/ExploringML.jpg": "/aboutMe_and_Resume/static/media/ExploringML.1d680311ad7213fc8e2a.jpg",
+    "static/media/Demystifying.jpg": "/aboutMe_and_Resume/static/media/Demystifying.e253a93fd95fadd60365.jpg",
+    "static/media/generation.jpg": "/aboutMe_and_Resume/static/media/generation.9074184a4ab87867f909.jpg",
+    "static/media/W3school.jpg": "/aboutMe_and_Resume/static/media/W3school.7d4b26cda488129f05e2.jpg",
+    "static/media/validation.jpg": "/aboutMe_and_Resume/static/media/validation.51a0e5ffdae67b90ca7a.jpg",
+    "static/media/portfolio.jpg": "/aboutMe_and_Resume/static/media/portfolio.583caede45dbb840420c.jpg",
+    "index.html": "/aboutMe_and_Resume/index.html",
+    "main.88f8dd61.css.map": "/aboutMe_and_Resume/static/css/main.88f8dd61.css.map",
+    "main.fb4f429a.js.map": "/aboutMe_and_Resume/static/js/main.fb4f429a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88f8dd61.css",
+    "static/js/main.fb4f429a.js"
+  ]
+}
