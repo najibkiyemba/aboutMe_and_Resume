@@ -1,11 +1,7 @@
-.slide-headers {
-    margin: 1rem;
-    border: 3px solid darkgray;
-}
 
 .slide-container {
-    background-color: rgba(169, 169, 169, 0.575);
-    border: 1rem solid rgba(169, 169, 169, 0.462);
+    background-color: rgba(169, 169, 169, 0.366);
+    border: 1rem solid rgba(169, 169, 169, 0.56);
     border-radius: 4px;
 }
 
@@ -13,13 +9,11 @@
     align-items: center;
     justify-content: center;
     display: block;
-    border: 2px solid rgba(169, 169, 169, 0.636);
-    background-color: rgba(169, 169, 169, 0.794);
+    border: 2px solid rgba(0, 0, 0, 0.100);
+    background-color: rgba(0, 0, 0, 0.432);
 }
 
-.react-slideshow-container .default-nav {
-    font-size: 3rem;
-}
+
 
 
 

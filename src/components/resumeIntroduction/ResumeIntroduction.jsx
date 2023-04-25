@@ -6,7 +6,7 @@ const resumeData = {
     introduction: `Passionate and strategic planning MEARN Stack & AWS Cloud Software Engineer with 1 year of experience in software development using a wide range of technologies such as React.js, MongoDB, Node.js, Express.js, Python, Linux, and more, to contribute and build various interactive and dynamic web applications that use application programming interfaces(api's) to send and recieve requests from servers and clients.`
 }
 
-const ResumeIntroduction = () => {
+const ResumeIntroduction = (props) => {
     const [count, setCount] = useState([0, '']);
     //const [index1, setIndex1] = useState(0);
     useEffect(() => {
@@ -31,7 +31,7 @@ const ResumeIntroduction = () => {
         <div className="resumeIntro">
             <div className="introduction divBody">
                 <div className="group-one">
-                    <h2 className='educationHead' >{<MdOutlineSummarize className="educ-image"/>} SUMMARY</h2>
+                    <h2 className='educationHead' >{<MdOutlineSummarize className="educ-image"/>} ABOUT ME</h2>
                 </div>
                 <br/>
                 <textarea

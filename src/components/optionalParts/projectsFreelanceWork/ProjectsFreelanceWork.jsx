@@ -11,6 +11,7 @@ import 'react-slideshow-image/dist/styles.css';
 
 import {FcBusinessman} from "react-icons/fc";
 import {FcBusinesswoman} from "react-icons/fc";
+import TrainingCertification from "../trainingCertificationLicenses/TrainingCertification";
 
 
 const projects = [
@@ -93,8 +94,11 @@ const ProjectsFreelanceWork = () => {
     }
 
     return (
-        <>
+        <div id="bigDiv">
         <div className="trainingCerti">
+            {
+                <TrainingCertification/>
+            }
             <div className="training">
                 <h2 className='educationHead' >{<GoProject className="educ-image"/>} PROJECTS & FREELANCE WORK</h2>
                 <Slide
@@ -120,6 +124,7 @@ const ProjectsFreelanceWork = () => {
                 </Slide>
             </div>
         </div>
+        
         
         <div id="tableSchedule">
             <table className='tableSchedule'>
@@ -261,7 +266,7 @@ const ProjectsFreelanceWork = () => {
                 </div>
             </div>
         </div>
-        </>    
+        </div>    
     );
 };
 

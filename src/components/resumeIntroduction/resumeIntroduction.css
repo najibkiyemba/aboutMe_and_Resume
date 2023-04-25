@@ -1,42 +1,32 @@
 .resumeIntro {
     padding: 1rem 2rem;
     text-align: center;
+    background-image: url('../../assets/lastMage.jpg');
+    
 }
 
-/*.summary-image {
-    background-color: black;
-    color: rgba(245, 245, 245, 0.576);
-    padding-right: 0.2rem;
-}*/
 
 #summary {
     padding: 0.5rem 0.7rem;
     font-size: 1rem;
+    color: black;
     font-style: normal;
     width: 80%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: lighter;
     border-style: none;
+    border-radius: 5px;
     line-height: 1.8;
     resize: none;
-    background: rgba(169, 169, 169, 0.412);
+    background: rgba(169, 169, 169, 0.799);
 }
 
 #summary:focus {
     outline: none;
   }
-  
-
-/*.introduction h3 {
-    display: inline-flex;
-    font-size: 1.1rem;
-    background-color: rgba(0, 0, 0, 0.937);
-    padding: 0.2rem 0rem;
-    color: rgba(245, 245, 245, 0.52);
-}*/
 
 .introduction{
-    background-color: rgba(169, 169, 169, 0.738);
+    background-color: rgba(169, 169, 169, 0.901);
 }
 
 .divBody {

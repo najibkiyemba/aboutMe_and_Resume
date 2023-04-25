@@ -1,9 +1,11 @@
 .trainingCerti {
     text-align: center;
     padding: 0.3rem 0rem;
-    font-size: 1rem;
+    font-size:  1rem;
     /*resize: none;*/
     margin-bottom: 1rem;
+
+    background-image: url('../../../assets/lastMage.jpg');
 }
 
 .items img {
@@ -18,8 +20,8 @@
 }
 
 .training {
-    border: 3px solid rgba(169, 169, 169, 0.812);
-    padding: 0.8rem;
+    border: 1px solid rgba(169, 169, 169, 0.812);
+    padding: 1.1rem;
     margin: 0rem 2rem;
     background-color: rgba(169, 169, 169, 0.536);
     border-radius: 5px;
@@ -38,12 +40,6 @@
    }
 }
 
-.training-title {
-    background-color: black;
-    color: darkgray;
-    padding: 0.4rem 1rem;
-    text-align: left;
-}
 
 
 
